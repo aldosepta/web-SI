@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayamku Shop</title>
+    <link rel="stylesheet" href="css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ayamku</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Katalog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" id="loginBtn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Landing Page -->
+    <section class="hero">
+        <h1>Welcome to Ayamku Shop</h1>
+        <p>Buy the healthiest baby chickens!</p>
+        <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-box">
+            <h3>Fast Shipping</h3>
+            <p>Get your baby chicks delivered right to your farm.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Affordable Prices</h3>
+            <p>We offer the best prices for the freshest baby chickens.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Care for Animals</h3>
+            <p>We believe in providing the best care for our animals.</p>
+        </div>
+    </section>
+
+    <!-- Halaman Login -->
+    <div id="loginModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="Masukkan Email" required>
+                <label>Password</label>
+                <input type="password" placeholder="Masukkan Password" required>
+                <a href="#">Forgot Password?</a>
+                <button type="submit">Login</button>
+                <p>Belum punya akun? <a href="#">Register</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
